@@ -1,4 +1,5 @@
-# CancerTrace
+# CancerTrace: Multi-Stage Single-Cell Analysis of Networked Cancer Evolution for Driver and Modulator Gene Identification 
+
 CancerTrace is a computational framework designed to identify cancer driver genes and their upstream regulators from longitudinal single-cell RNA sequencing (scRNA-seq) datasets. By integrating patient-specific, time-resolved data, CancerTrace enables dynamic mapping of gene regulatory networks
 
 ## Features
@@ -17,4 +18,11 @@ CancerTrace is a computational framework designed to identify cancer driver gene
 ## Validation
 - ✅ Cross-validation and ROC analysis for predictive accuracy  
 - 🔄 In silico perturbation for functional relevance  
-- 📚 Matches literature-reported oncogenes & tumor suppressors  
+- 📚 More than half genes matches literature-reported oncogenes & tumor suppressors  
+
+
+$~~$
+
+## Steps in the CancerTrace Framework 
+
+
