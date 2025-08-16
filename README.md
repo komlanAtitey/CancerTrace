@@ -25,4 +25,6 @@ $~~$
 
 ## Steps in the CancerTrace Framework 
 
+![](Figure/Figure_2.tiff)
+
 
