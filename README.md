@@ -9,4 +9,16 @@ CancerTrace is a computational framework designed to identify cancer driver gene
 - 📈 Rank both known and novel driver genes across multiple tumor stages  
 - 🌐 Reveal upstream modulators and regulatory hierarchies in tumor progression  
 
+---
 
+## Dataset
+- 9 longitudinal scRNA-seq datasets  
+- 3 LUAD patients (Normal → Early → Mid → Late stages)  
+- Patient-specific cell states preserved across time  
+
+---
+
+## Validation
+- ✅ Cross-validation and ROC analysis for predictive accuracy  
+- 🔄 In silico perturbation for functional relevance  
+- 📚 Matches literature-reported oncogenes & tumor suppressors  
