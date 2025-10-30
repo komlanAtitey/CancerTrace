@@ -33,9 +33,8 @@ $~~$
 Example run scripts are located in the Run/ folder. )<br>
 They demonstrate how to execute both pipelines using example data and visualize key outputs. )<br>
 
-#---------------<br>
+
 **Run cancertrace_algorithm_2 — Driver Scoring**<br>
-#---------------<br>
 Script: Run/RUNcancertrace_algorithm_2.R<br>
 This script: <br>
 1.	Loads stage-ordered epithelial datasets (time1, time2, time3). <br>
