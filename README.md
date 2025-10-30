@@ -35,6 +35,7 @@ They demonstrate how to execute both pipelines using example data and visualize 
 
 
 **Run cancertrace_algorithm_2 — Driver Scoring**<br>
+
 Script: Run/RUNcancertrace_algorithm_2.R<br>
 This script: <br>
 1.	Loads stage-ordered epithelial datasets (time1, time2, time3). <br>
@@ -45,10 +46,8 @@ Output:
 - Top 20 Drivers - visualization of ranked genes<br>
 
 $~~$
-
-#---------------<br>
 **Run cancertrace_algorithm_3 — Dynamic Causal Inference**<br>
-#---------------<br>
+
 Script: Run/RUNcancertrace_algorithm_2.R<br>
 This script: <br>
 1.	Loads the same stage-ordered data. <br>
