@@ -90,33 +90,40 @@ likelihood_output <- compute_transformation_likelihood(CIS_matrix, driver_genes,
 likelihood_df <- likelihood_output$model_df<br>
 auc_mean <- evaluate_model_performance(likelihood_df)<br>
 
-
+$~~$
 
 ## Running the CancerTrace Algorithms
 Example run scripts are located in the Run/ folder. )<br>
 They demonstrate how to execute both pipelines using example data and visualize key outputs. )<br>
 
-▶️ Run Algorithm 2 — Driver Scoring<br>
+#---------------<br>
+**Run Algorithm 2 — Driver Scoring**<br>
+#---------------<br>
 Script: run/run_algorithm_2.R<br>
 This script: <br>
 1.	Loads stage-ordered epithelial datasets (time1, time2, time3). <br>
 2.	Runs Algorithm 2 on each gene to estimate the driver effect coefficient (dr.coef). <br>
 3.	Outputs a ranked gene table and a bar plot of the top 20 genes (known drivers marked with “X”). <br>
 Output:
-•	gene.dr - data frame of genes × driver scores<br>
-•	Top 20 Drivers.png - visualization of ranked genes<br>
-▶️ Run Algorithm 3 — Dynamic Causal Inference<br>
+- gene.dr - data frame of genes × driver scores<br>
+- Top 20 Drivers.png - visualization of ranked genes<br>
+
+$~~$
+
+#---------------<br>
+**Run Algorithm 3 — Dynamic Causal Inference**<br>
+#---------------<br>
 Script: Run/run_algorithm_3.R<br>
 This script: <br>
 1.	Loads the same stage-ordered data. <br>
 2.	Runs Algorithm 3, which constructs a time-densified expression matrix, infers causal gene-gene influences, and performs knockout Granger-causality analysis. <br>
 3.	Produces a summary of top modulators per driver and a bar chart comparing −log10 (p-values) before vs after knockout. <br>
 Output: <br>
-•	CIS_matrix — non-driver → driver causal scores<br>
-•	top_influencers — top modulators for each driver<br>
-•	knockout_results.table — combined knockout statistics<br>
-•	Knockout_Effect.png — plot of original vs knockout significance<br>
-<img width="468" height="619" alt="image" src="https://github.com/user-attachments/assets/fe1d22b1-76d7-40a9-96e6-640eb15db8ab" />
+- CIS_matrix — non-driver → driver causal scores<br>
+- top_influencers — top modulators for each driver<br>
+- knockout_results.table — combined knockout statistics<br>
+- Knockout_Effect.png — plot of original vs knockout significance<br>
+
 
 
 
