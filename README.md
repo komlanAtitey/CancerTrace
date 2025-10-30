@@ -97,23 +97,23 @@ Example run scripts are located in the Run/ folder. )<br>
 They demonstrate how to execute both pipelines using example data and visualize key outputs. )<br>
 
 #---------------<br>
-**Run Algorithm 2 — Driver Scoring**<br>
+**Run cancertrace_algorithm_2 — Driver Scoring**<br>
 #---------------<br>
-Script: run/run_algorithm_2.R<br>
+Script: Run/RUNcancertrace_algorithm_2.R<br>
 This script: <br>
 1.	Loads stage-ordered epithelial datasets (time1, time2, time3). <br>
 2.	Runs Algorithm 2 on each gene to estimate the driver effect coefficient (dr.coef). <br>
-3.	Outputs a ranked gene table and a bar plot of the top 20 genes (known drivers marked with “X”). <br>
+3.	Outputs a ranked gene table and a bar plot of the top 20 genes<br>
 Output:
 - gene.dr - data frame of genes × driver scores<br>
-- Top 20 Drivers.png - visualization of ranked genes<br>
+- Top 20 Drivers - visualization of ranked genes<br>
 
 $~~$
 
 #---------------<br>
-**Run Algorithm 3 — Dynamic Causal Inference**<br>
+**Run cancertrace_algorithm_3 — Dynamic Causal Inference**<br>
 #---------------<br>
-Script: Run/run_algorithm_3.R<br>
+Script: Run/RUNcancertrace_algorithm_2.R<br>
 This script: <br>
 1.	Loads the same stage-ordered data. <br>
 2.	Runs Algorithm 3, which constructs a time-densified expression matrix, infers causal gene-gene influences, and performs knockout Granger-causality analysis. <br>
