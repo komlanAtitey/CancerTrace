@@ -30,7 +30,8 @@ They demonstrate how to execute both pipelines using example data and visualize 
 **Run cancertrace_algorithm_2 — Driver Scoring**<br>
 
 - **R Script** Run/RUNcancertrace_algorithm_2.R<br>
-- **Python Script**<br> 
+- **Python Script**<br>
+  
 ./run_algorithm_2.py --in1 data/epithelial.level.time1.csv \<br>
                      --in2 data/epithelial.level.time2.csv \<br>
                      --in3 data/epithelial.level.time3.csv \<br>
