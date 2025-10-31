@@ -53,6 +53,10 @@ Output: <br>
 - Knockout_Effect.png — plot of original vs knockout significance<br>
 
 
+$~~$
+
+![](Figure/knockout_visualization.png)
+
 
 
 
