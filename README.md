@@ -42,6 +42,10 @@ $~~$
 **Run cancertrace_algorithm_3 — Dynamic Causal Inference**<br>
 
 Script: Run/RUNcancertrace_algorithm_2.R<br>
+$~~$
+
+![](Figure/knockout_visualization.png)
+
 This script: <br>
 1.	Loads the same stage-ordered data. <br>
 2.	Runs Algorithm 3, which constructs a time-densified expression matrix, infers causal gene-gene influences, and performs knockout Granger-causality analysis. <br>
@@ -53,9 +57,7 @@ Output: <br>
 - Knockout_Effect.png — plot of original vs knockout significance<br>
 
 
-$~~$
 
-![](Figure/knockout_visualization.png)
 
 
 
