@@ -23,20 +23,17 @@ CancerTrace is a computational framework designed to identify cancer driver gene
 $~~$
 
 ## Running the CancerTrace Algorithms
-Example run scripts are located in the Run/ folder. )<br>
-They demonstrate how to execute both pipelines using example data and visualize key outputs. )<br>
+Example run scripts are located in the Run/ folder.<br>
+They demonstrate how to execute both pipelines using example data and visualize key outputs.<br>
 
 
 **Run cancertrace_algorithm_2 — Driver Scoring**<br>
 
-Script: Run/RUNcancertrace_algorithm_2.R<br>
+- **R Script** Run/RUNcancertrace_algorithm_2.R<br>
 This script: <br>
 1.	Loads stage-ordered epithelial datasets (time1, time2, time3). <br>
 2.	Runs Algorithm 2 on each gene to estimate the driver effect coefficient (dr.coef). <br>
 3.	Outputs a ranked gene table and a bar plot of the top 20 genes<br>
-Output:
-- gene.dr - data frame of genes × driver scores<br>
-- Top 20 Drivers - visualization of ranked genes<br>
 
 $~~$
 **Run cancertrace_algorithm_3 — Dynamic Causal Inference**<br>
