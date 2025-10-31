@@ -30,6 +30,12 @@ They demonstrate how to execute both pipelines using example data and visualize 
 **Run cancertrace_algorithm_2 — Driver Scoring**<br>
 
 - **R Script** Run/RUNcancertrace_algorithm_2.R<br>
+- **Python Script**<br> 
+./run_algorithm_2.py --in1 data/epithelial.level.time1.csv \<br>
+                     --in2 data/epithelial.level.time2.csv \<br>
+                     --in3 data/epithelial.level.time3.csv \<br>
+                     --outpng data/algorithm2_top20.png<br>
+
 This script: <br>
 1.	Loads stage-ordered epithelial datasets (time1, time2, time3). <br>
 2.	Runs Algorithm 2 on each gene to estimate the driver effect coefficient (dr.coef). <br>
