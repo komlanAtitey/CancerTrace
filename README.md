@@ -41,8 +41,8 @@ Output:
 $~~$
 **Run cancertrace_algorithm_3 — Dynamic Causal Inference**<br>
 
-- R Script: Run/RUNcancertrace_algorithm_2.R <br>
-- Python Script: python3 run_algorithm_3.py <br>
+- **R Script**: Run/RUNcancertrace_algorithm_2.R <br>
+- **Python Script**: python3 run_algorithm_3.py <br>
 
 $~~$
 
