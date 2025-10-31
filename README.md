@@ -20,13 +20,6 @@ CancerTrace is a computational framework designed to identify cancer driver gene
 - 🔄 In silico perturbation for functional relevance  
 - 📚 More than half genes matches literature-reported oncogenes & tumor suppressors  
 
-
-$~~$
-
-## Steps in the CancerTrace Framework 
-
-![](Figure/github.png)
-
 $~~$
 
 ## Running the CancerTrace Algorithms
