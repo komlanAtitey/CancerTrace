@@ -32,10 +32,10 @@ They demonstrate how to execute both pipelines using example data and visualize 
 - **R Script** Run/RUNcancertrace_algorithm_2.R<br>
 - **Python Script**<br>
   
-./run_algorithm_2.py --in1 data/epithelial.level.time1.csv \<br>
-                     --in2 data/epithelial.level.time2.csv \<br>
-                     --in3 data/epithelial.level.time3.csv \<br>
-                     --outpng data/algorithm2_top20.png<br>
+./run_algorithm_2.py --in1 data/epithelial.level.time1.csv
+                     --in2 data/epithelial.level.time2.csv 
+                     --in3 data/epithelial.level.time3.csv
+                     --outpng data/algorithm2_top20.png
 
 This script: <br>
 1.	Loads stage-ordered epithelial datasets (time1, time2, time3). <br>
