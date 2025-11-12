@@ -26,10 +26,10 @@ $~~$
 Example run scripts are located in the Run/ folder.<br>
 They demonstrate how to execute both pipelines using example data and visualize key outputs.<br>
 
-**Usage: R script for Driver Scoring**<br> 
+**Usage: R script for algorithm 2**<br> 
    Run/RUNcancertrace_algorithm_2.R<br>
 
-**Usage: Python script for Driver Scoring**<br> 
+**Usage: Python script for for algorithm 2**<br> 
 ***Execute in the terminal***<br>
    ./run_algorithm_2.py --in1 data/epithelial.level.time1.csv<br>
                      --in2 data/epithelial.level.time2.csv<br> 
