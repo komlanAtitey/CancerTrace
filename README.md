@@ -27,12 +27,11 @@ Example run scripts are located in the Run/ folder.<br>
 They demonstrate how to execute both pipelines using example data and visualize key outputs.<br>
 
 ## Usage: R script for Driver Scoring<br> 
-- **R Script**<br>
-  Run/RUNcancertrace_algorithm_2.R<br>
+   Run/RUNcancertrace_algorithm_2.R<br>
 
 ## Usage: Python script for Driver Scoring<br> 
 ***Execute in the terminal***<br>
-./run_algorithm_2.py --in1 data/epithelial.level.time1.csv<br>
+   ./run_algorithm_2.py --in1 data/epithelial.level.time1.csv<br>
                      --in2 data/epithelial.level.time2.csv<br> 
                      --in3 data/epithelial.level.time3.csv<br>
                      --outpng data/algorithm2_top20.png<br>
