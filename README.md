@@ -26,10 +26,10 @@ $~~$
 Example run scripts are located in the Run/ folder.<br>
 They demonstrate how to execute both pipelines using example data and visualize key outputs.<br>
 
-**Usage: R script for algorithm 2**<br> 
+**Usage: R script for Algorithm 2: Driver Gene Scoring**<br> 
    Run/RUNcancertrace_algorithm_2.R<br>
 
-**Usage: Python script for algorithm 2**<br> 
+**Usage: Python script for algorithm 2: Driver Gene Scoring**<br> 
 ***Execute in the terminal***<br>
    ./run_algorithm_2.py --in1 data/epithelial.level.time1.csv<br>
                      --in2 data/epithelial.level.time2.csv<br> 
@@ -42,10 +42,12 @@ This script: <br>
 3.	Outputs a ranked gene table and a bar plot of the top 20 genes<br>
 
 $~~$
-**Run cancertrace_algorithm_3 — Dynamic Causal Inference**<br>
+**Usage: R script for algorithm 3: Dynamic Causal Inference**<br>
+Run/RUNcancertrace_algorithm_2.R <br>
 
-- **R Script**: Run/RUNcancertrace_algorithm_2.R <br>
-- **Python Script**: python3 run_algorithm_3.py <br>
+**Usage: Python script for algorithm 3: Dynamic Causal Inference**<br>
+***Execute in the terminal***<br>
+python3 run_algorithm_3.py <br>
 
 $~~$
 
