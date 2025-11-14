@@ -35,7 +35,7 @@ This script: <br>
 
 $~~$
 **Usage: R script for algorithm 3: Dynamic Causal Inference**<br>
-   Run/RUNcancertrace_algorithm_2.R <br>
+   Run/RUNcancertrace_algorithm_3.R <br>
 
 **Usage: Python script for algorithm 3: Dynamic Causal Inference**<br>
    Execute in the terminal<br>
