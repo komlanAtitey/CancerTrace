@@ -22,7 +22,7 @@ They demonstrate how to execute both pipelines using example data and visualize 
    Run/RUNcancertrace_algorithm_2.R<br>
 
 **Usage: Python script for algorithm 2: Driver Gene Scoring**<br> 
-***Execute in the terminal***<br>
+Execute in the terminal<br>
    ./run_algorithm_2.py --in1 data/epithelial.level.time1.csv<br>
                      --in2 data/epithelial.level.time2.csv<br> 
                      --in3 data/epithelial.level.time3.csv<br>
