@@ -12,16 +12,6 @@
 - 📈 Rank both known and novel driver genes across multiple tumor stages  
 - 🌐 Reveal upstream modulators and regulatory hierarchies in tumor progression  
 
-## Dataset
-- 9 longitudinal scRNA-seq datasets  
-- 3 LUAD patients (Normal → Early → Mid → Late stages)  
-- Patient-specific cell states preserved across time  
-
-## Validation
-- ✅ Cross-validation and ROC analysis for predictive accuracy  
-- 🔄 In silico perturbation for functional relevance  
-- 📚 More than half genes matches literature-reported oncogenes & tumor suppressors  
-
 $~~$
 
 ## Executing the CancerTrace Algorithms
