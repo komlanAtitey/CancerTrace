@@ -2,7 +2,7 @@
 
 ***CancerTrace*** is a computational framework designed to identify cancer driver genes and their upstream regulators from longitudinal single-cell RNA sequencing (scRNA-seq) datasets. By integrating patient-specific, time-resolved data, CancerTrace enables dynamic mapping of gene regulatory networks.
 
-![Clonal Expansion](Figure/clonal_expansion_heterogeneity.gif)
+![Clonal Expansion](Figure/modulator_driver_heterogeneity.gif)
 
 ## Features
 - 🔎 Identify cancer-originating clusters from longitudinal scRNA-seq data  
